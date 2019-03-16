@@ -1,0 +1,5 @@
+Line = input("Enter any string:")
+print(Line.upper())
+print(Line.lower())
+print(Line.title())
+print(Line.capitalize())
