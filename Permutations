@@ -1,0 +1,9 @@
+from itertools import permutations
+from nltk.corpus import wordnet
+word=permutations("Protosem")
+for i in word:
+    a = ''.join(i)
+    if not  wordnet.synsets(a):
+        pass
+    else:
+        print(a)
