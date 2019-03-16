@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int symbol;
+    float a,b;
+    cout<<"Enter the operator \n1 for Add\n2 for Sub\n3 for multi\n4 for Divide\n ";
+    cin>>symbol;
+    cout<<"Enter first number: ";
+    cin>>a; 
+    cout<<"Enter second number: ";
+    cin>>b;
+    switch(symbol)
+    {
+        case(1):
+            cout<<a+b;
+            break;
+        case(2):
+            cout<<a-b;
+            break;
+        case(3):
+            cout<<a*b;
+            break;
+        case(4):
+            cout<<a/b;
+            break;
+        default:
+            cout<<"Need help!";
+            break;
+    }
+}
